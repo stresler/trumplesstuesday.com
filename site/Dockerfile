@@ -19,7 +19,7 @@ RUN \
 WORKDIR /var/golang
 
 RUN \
-  go get github.com/stresler/trumplesstuesday.com && \
-  git install github.com/stresler/trumplesstuesday.com/site && \   
+  go get github.com/stresler/trumplesstuesday.com/site && \
+  go install github.com/stresler/trumplesstuesday.com/site && \   
 
 CMD [ "/var/golang/bin/site" ]

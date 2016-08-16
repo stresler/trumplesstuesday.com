@@ -1,6 +1,6 @@
 package main
 
-import "github.com/kataras/iris/iris"
+import "github.com/kataras/iris"
 
 func main() {
     iris.Get("/hi", func(ctx *iris.Context) {
